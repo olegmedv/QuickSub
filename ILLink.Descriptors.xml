@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <!-- Full protection for core UI frameworks -->
+  <assembly fullname="WindowsBase" preserve="all" />
+  <assembly fullname="PresentationCore" preserve="all" />
+  <assembly fullname="PresentationFramework" preserve="all" />
+  <assembly fullname="System.Xaml" preserve="all" />
+  
+  <!-- Protection for Windows Forms system tray -->
+  <assembly fullname="System.Windows.Forms" preserve="all" />
+  
+  <!-- Protection for System.Drawing icons -->
+  <assembly fullname="System.Drawing" preserve="all" />
+  <assembly fullname="System.Drawing.Common" preserve="all" />
+  
+  <!-- Protection for UI Automation -->
+  <assembly fullname="Interop.UIAutomationClient" preserve="all" />
+  
+  <!-- Protection for main application -->
+  <assembly fullname="QuickSub" preserve="all" />
+  
+  <!-- Protection for HTTP and JSON for Google Translate -->
+  <assembly fullname="System.Net.Http" preserve="all" />
+  <assembly fullname="System.Text.Json" preserve="all" />
+  
+  <!-- Protection for model components -->
+  <assembly fullname="System.ComponentModel.TypeConverter" preserve="all" />
+  <assembly fullname="System.ComponentModel.Primitives" preserve="all" />
+</linker> 
