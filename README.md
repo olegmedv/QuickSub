@@ -1,4 +1,5 @@
 # QuickSub - Lightweight Subtitle Overlay
+<img width="1000" height="735" alt="project-quicksub-1000px" src="https://github.com/user-attachments/assets/5af3c166-4a15-4c49-bad1-4dfc1721b5b6" />
 
 QuickSub is a lightweight .NET 8 application that provides real-time subtitle overlay functionality by integrating with Windows Live Captions. It offers automatic translation capabilities and creates an unobtrusive transparent overlay that remains hidden from screen recordings and captures.
 
